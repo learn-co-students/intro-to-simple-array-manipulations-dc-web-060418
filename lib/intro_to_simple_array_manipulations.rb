@@ -26,7 +26,9 @@ end
     #argument of 2 to remove the last two array items and return them
     #decreases the length of the array by 2
 
-
+    def pop_with_args(array)
+       array.pop(2)
+    end
 
   #using_shift
     #takes in an argument of an array and uses the shift method to
@@ -42,6 +44,12 @@ end
      #of 2 to remove and return the first 2 items from the array
     #decreases the length of the array by 2
 
+    def shift_with_args(array)
+      array.shift(2)
+    end
+
+
+
   #using_concat
     #takes in two arguments of two different arrays and uses the concat method
     #to add the contents of the second array to the first
@@ -55,8 +63,8 @@ end
   #takes in two arguments, an array and a new element to be added to the array.
 #it uses the insert method to add the new element to the 4th index of the array
     #increases the length of the array
-    def using_insert(array, string)
-      array.insert(string)
+    def using_insert(array)
+      array.insert[4]
     end
 
   #using_uniq
